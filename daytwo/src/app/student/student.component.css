@@ -1,0 +1,26 @@
+p{
+    color: blueviolet;
+}
+.c1{
+    color: plum;
+    font-style: italic;
+    
+}
+*{
+    border-style: solid;
+}
+img{
+    height: 350px;
+    width: 300px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid rgb(21, 138, 122);
+}
+h2{
+    
+    font-style: italic;
+}
