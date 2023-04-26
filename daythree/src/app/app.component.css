@@ -1,0 +1,19 @@
+table{
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+th, td{
+    border: 1px solid black;
+    background-color: aquamarine;
+   
+    
+}
+thead{
+    color: red;
+}
+.a1{
+    color: mediumpurple;
+}

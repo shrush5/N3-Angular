@@ -1,0 +1,40 @@
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Salaray</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let emp of employee">
+      <td>{{emp.ID}}</td>
+      <td>{{emp.Name}}</td>
+      <td>{{emp.Salaray}}</td>
+      </tr>
+     
+  </tbody>
+</table>
+<!--ngIf Directive-->
+<h2 *ngIf="true">Welcome To Directives</h2>
+
+<!--ngIf else-->
+<h3 *ngIf="displayCode else elseBlock">Hello MET</h3>
+<ng-template #elseBlock>
+  <h3>Code is Taking else statement</h3>
+</ng-template>
+
+<!--ng Switch-->
+<h4 [ngSwitch]="color">
+<h4 *ngSwitchCase="'pink'">The Color is pink</h4>
+<h4 *ngSwitchCase="'red'">The Color is red</h4>
+<h4 *ngSwitchCase="'blue'">The Color is blue</h4>
+<h4 *ngSwitchDefault="''">Invalid Color</h4>
+</h4>
+<!--ng Class-->
+<h5 [ngClass]="'a1'">Demonstrate on ng class</h5>
+
+<!--ng Style-->
+<p>
+  <button [ngStyle]="{'color':'red','background-color':'pink'}">Submit</button>
+</p>
